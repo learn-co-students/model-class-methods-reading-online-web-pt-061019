@@ -1,0 +1,15 @@
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+/Users/agomez/.rbenv/versions/2.6.4/bin/ruby -I /Users/agomez/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20200117-63863-17xqv79.rb extconf.rb
+creating Makefile
+
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" clean
+
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR="
+compiling debug_inspector.c
+linking shared-object debug_inspector.bundle
+
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/debug_inspector-0.0.3/ext/debug_inspector
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug_inspector.bundle ./.gem.20200117-63863-1dkxv9b
