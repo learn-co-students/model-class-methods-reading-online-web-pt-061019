@@ -1,0 +1,16 @@
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+/Users/agomez/.rbenv/versions/2.6.4/bin/ruby -I /Users/agomez/.rbenv/versions/2.6.4/lib/ruby/2.6.0 -r ./siteconf20200117-63863-gwhqzk.rb extconf.rb
+
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" clean
+make: *** No rule to make target `clean'.  Stop.
+
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR="
+echo "Nada."
+Nada.
+
+current directory: /Users/agomez/code/model-class-methods-reading-online-web-pt-061019/vendor/bundle/gems/binding_of_caller-0.8.0/ext/binding_of_caller
+make "DESTDIR=" install
+echo "Nada."
+Nada.
