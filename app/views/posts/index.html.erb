@@ -1,4 +1,16 @@
 <h1>Believe It Or Not I'm Blogging On Air</h1>
+<!--We want to start by adding some controls to our view to do the filtering:-->
+<div>
+  <h3>Filter posts:</h3>
+  <%= form_tag("/posts", method: "get") do %>
+  <!--Change the select_tag options from Author.all to @authors because our view shouldn't be directly querying the database-->
+    <%= select_tag "author", options_from_collection_for_select(@authors, "id", "name"), include_blank: true %>
+
+    <!--Filter posts by date-->
+      <%= select_tag "date", options_for_select(["Today", "Old News"]), include_blank: true %>
+    <%= submit_tag "Filter" %>
+  <% end %>
+</div>
 <% @posts.each do |post| %>
   <div>
     <h2><%= post.title %></h2>
